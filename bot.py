@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 key = get_random_bytes(16)
 
 # બોટ ટોકન
-TOKEN = os.getenv("TELEGRAM_TOKEN") or "7330836124:AAGRQ6Zpcj6_QRRX1m5q7yEljXEOyEDQ_fs"
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 def txt_to_pdf(input_txt, output_pdf):
     try:
